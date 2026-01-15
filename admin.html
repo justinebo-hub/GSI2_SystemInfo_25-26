@@ -53,8 +53,10 @@
                 .text(d=>d["Votre login github"]+ " sources exercices")
             liensEtu.append("a").attr("href",d=>"https://"+d["Votre login github"]+".github.io/GSI2_SystemInfo_25-26/test.html")
                 .text(d=>"Page Test")
+            /*
             liensEtu.append("a").attr("href",d=>"https://"+d["Votre login github"]+".github.io/GSI2_SystemInfo_25-26/arguments.html")
                 .text(d=>"Page arguments")
+            */
             liensEtu.append('div').append('button')
                     .text('Voir les arguments')
                     .on('click',showArguments);
